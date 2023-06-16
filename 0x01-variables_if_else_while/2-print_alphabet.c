@@ -5,10 +5,10 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	char letter = 'a';
+	char alphabet = 'a';
 
-	while (letter <= 'z'){
-		putchar(letter);
+	while (alphabet <= 'z'){
+		putchar(alphabet);
 		letter++;
 	}
 	putchar('\n');

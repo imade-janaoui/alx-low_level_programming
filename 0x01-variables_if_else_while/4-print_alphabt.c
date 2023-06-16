@@ -1,18 +1,13 @@
 #include <stdio.h>
 
-/**
- * main - Prints the alphabet in lowercase.
- *
- * Return: Always 0.
- */
 int main(void)
 {
-	char letter ='a';
+	char alphabet ='a';
 
-	while (letter <= 'z')
+	while (alphabet <= 'z')
 	{
-		if(letter != 'q' && letter != 'e')
-			putchar(letter);
+		if(alphabet != 'q' && alphabet != 'e')
+			putchar(alphabet);
 	}
 	printf("\n");
 	return 0;
