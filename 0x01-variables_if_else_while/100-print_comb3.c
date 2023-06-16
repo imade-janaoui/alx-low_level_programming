@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Inventing is a combination of brains and materials. 
+ *main - Inventing is a combination of brains and materials. 
  *
- * Return: Always 0
+ *Return: Always 0
  */
 int main(void)
 {
-	int i,n;
+	int i, n;
 
 	for (n = 0 ; n < 9 ; n++)
 	{
