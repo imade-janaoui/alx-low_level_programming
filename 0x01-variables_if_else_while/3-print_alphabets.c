@@ -1,18 +1,26 @@
-#include <stdoi.h>
+#include <stdio.h>
 
-int main(void){
-	char letter ='a';
-	char _letter = 'A';
+/**
+ * main - Write a program that prints the alphabet
+ *
+ *
+ * Return: Always 0 (Sucess)
+ */
 
-	while(letter <= 'z')
+int main(void)
+{
+	char c;
+
+	for (c = 'a' ; c <= 'z' ; c++)
 	{
-		putchar(letter);
+		putchar(c);
+
 	}
-	while(_letter <= 'Z')
+
+	for (c = 'A' ; c <= 'Z' ; c++)
 	{
-		putchar(_letter);
+		putchar(c);
 	}
 	putchar('\n');
-
-	return 0;
+	return (0);
 }
