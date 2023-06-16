@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char alphabet ='a';
+	char alphabet = 'a';
 
-	for (;alphabet <= 'z';alphabet++)
+	for (; alphabet <= 'z'; alphabet++)
 	{
 		if(alphabet != 'q' && alphabet != 'e')
 			putchar(alphabet);
 	}
 	printf("\n");
-	return 0;
+	return (0);
 }
