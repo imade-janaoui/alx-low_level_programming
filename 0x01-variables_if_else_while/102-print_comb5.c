@@ -8,35 +8,34 @@
 
 int main(void)
 {
-	int tho;
-	int hun;
-	int ten;
-	int bas;
-
-for (tho = 0 ; tho < 10 ; tho++)
-{
-	for (hun = 0 ; hun <= 10 ; hun++)
+	int _ivar, _jvar;
+	int i, j;
+	
+	for (_ivar = 48; _ivar < 58; _ivar++)
 	{
-		for (ten = 0 ; ten < 10 ; ten++)
+		for (i = 48; i < 58; i++)
 		{
-			for (bas = 0 ; bas < 10 ; bas++)
+			j = i + 1;
+			_jvar = _ivar;
+			for (; _jvar < 58; _jvar++)
 			{
-				putchar('0' + tho);
-				putchar('0' + hun);
-				putchar(32);
-				putchar('0' + ten);
-				putchar('0' + bas);
-				if (!(tho == 9 && hun == 8))
+				for (; j < 58; j++)
 				{
-					putchar(',');
-					putchar(32);
+					putchar(_ivar);
+					putchar(i);
+					putchar(' ');
+					putchar(_jvar);
+					putchar(j);
+					if (_ivar != 57 || _jvar != 57 || i != 56 || j != 57)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
-				bas++;
+				j = 48;
 			}
 		}
 	}
-}
 	putchar('\n');
 	return (0);
 }
-
