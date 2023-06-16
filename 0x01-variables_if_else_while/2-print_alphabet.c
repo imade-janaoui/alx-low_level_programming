@@ -10,13 +10,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	char alphabet = 'a';
+	char c;
 
-	while (alphabet <= 'z'){
-		putchar(alphabet);
-		letter++;
+	for (c = 'a' ; c <= 'z' ; c++)
+	{
+		putchar(c);
 	}
 	putchar('\n');
-
-	return 0;
+	return (0);
 }
