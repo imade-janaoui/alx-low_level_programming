@@ -10,7 +10,7 @@ int main(void)
 {
 	int _ivar, _jvar;
 	int i, j;
-	
+
 	for (_ivar = 48; _ivar < 58; _ivar++)
 	{
 		for (i = 48; i < 58; i++)
