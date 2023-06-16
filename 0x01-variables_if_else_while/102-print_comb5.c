@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - 
+ * main - Write a program that prints all possible combinations
  *
  * Return: Always 0
  */
