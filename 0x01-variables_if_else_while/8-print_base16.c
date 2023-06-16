@@ -6,13 +6,19 @@
  */
 int main(void)
 {
-	int i;
-	char alphabet;
+	int n;
 
-	for (i = 0; i < 10; i++)
-	    putchar((i % 10) + '0');
-	for (alphabet = 'a'; alphabet <= 'f' ; alphabet++)
-	    putchar(alphabet);
+	for (n = 0 ; n < 16 ; n++)
+	{
+		if (n < 10)
+		{
+			putchar('0' + n);
+		}
+		else
+		{
+			putchar(87 + n);
+		}
+	}
 	putchar('\n');
 	return (0);
 }
