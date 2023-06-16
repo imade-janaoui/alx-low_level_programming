@@ -10,7 +10,7 @@ int main(void)
 
 	for (; alphabet <= 'z'; alphabet++)
 	{
-		if(alphabet != 'q' && alphabet != 'e')
+		if (alphabet != 'q' && alphabet != 'e')
 			putchar(alphabet);
 	}
 	printf("\n");
