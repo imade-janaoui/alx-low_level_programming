@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- *main - Inventing is a combination of brains and materials. 
- *
- *Return: Always 0
+ * main - Inventing is a combination of brains and materials.
+ * Return: Always 0
  */
 int main(void)
 {
