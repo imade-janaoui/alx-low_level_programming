@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * main - Write a program that prints _putchar
- *
- *Return: Always 0
+ * main - Entry point
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	char c[9] = {'_','p','u','t','c','h','a','r'};
+	char c[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
 	int i = 0;
 
 	while (c[i] != '\0')
