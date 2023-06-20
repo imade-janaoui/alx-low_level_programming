@@ -5,7 +5,6 @@
  * @num: variable to test 
  * Return: Nothing
  */
-
 int _abs(int num)
 {
 	if (num >= 0)
