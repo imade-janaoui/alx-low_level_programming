@@ -2,7 +2,7 @@
 
 /**
  * _abs - Write a function that computes the absolute value of an integer
- * @num: variable to test 
+ * @num: variable to test
  * Return: Nothing
  */
 int _abs(int num)
