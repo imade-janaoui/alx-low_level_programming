@@ -3,24 +3,14 @@
 /**
  * _islower - Write a function that checks for lowercase character.
  *
- * Return: Alwyas 0
+ * @c: variable to test
+ * Return: 1 if it is a lowercase letter, 0 if it is not a lowercase letter
  */
 
 int _islower(int c)
 {
-	char l_str, u_str;
-
-	for (l_str = 'a'; l_str <= 'z'; l_str++)
-	{
-		if (l_str == c)
-		{
-			return (1);
-		}
-	}
-
-	for (u_str = 'A'; u_str <= 'A'; u_str)
-	{
-		if (u_str == c)
-			return (0);
-	}
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
