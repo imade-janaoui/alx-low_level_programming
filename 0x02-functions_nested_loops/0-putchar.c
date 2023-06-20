@@ -8,11 +8,13 @@
 
 int main(void)
 {
-	char c[]="_putchar";
-	int i;
-	for (i = 0; i < 9; i++)
+	char c[9] = {'_','p','u','t','c','h','a','r'};
+	int i = 0;
+
+	while (c[i] != '\0')
 	{
 		_putchar(c[i]);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
