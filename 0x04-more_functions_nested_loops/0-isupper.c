@@ -17,10 +17,8 @@ int _isupper(int c)
 		{
 			isupper = 1;
 		
-		}
-		else
+		} else
 			isupper = 0;
 	}
-
 	return (isupper);
 }
