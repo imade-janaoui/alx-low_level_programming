@@ -8,17 +8,9 @@
  */
 int _isupper(int c)
 {
-	char crt;
-	int isupper;
-
-	for (crt = 'A'; crt <= 'Z'; crt++)
+	if (c >= 65 && c <= 90)
 	{
-		if (c == crt)
-		{
-			isupper = 1;
-		
-		} else
-			isupper = 0;
+		return (1);
 	}
-	return (isupper);
+	return (0);
 }
