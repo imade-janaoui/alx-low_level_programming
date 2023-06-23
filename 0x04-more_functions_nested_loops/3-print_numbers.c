@@ -2,9 +2,9 @@
 
 /**
  *
- * print_number - Write a function that prints the numbers, from 0 to 9
+ * print_number - unction that prints the numbers, from 0 to 9
  *
- * Return: Nothing
+ * Return: void
  */
 void print_numbers(void)
 {
