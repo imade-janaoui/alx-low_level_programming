@@ -5,18 +5,25 @@
  *
  * Return: void
  */
-void rev_string(char *s);
+void rev_string(char *s)
 {
-	int i, j , lent;
+	char tmp;
+	int i, len, len1;
 
-	lent = 0;
-	for (i = 0; s[i] != '\0'; i++)
+	len = 0;
+	len1 = 0;
+
+	while (s[len] != '\0')
 	{
-		_putchar(s[i]);
-		lent++;
+		len++;
 	}
-	for (j = lent - 1; j >= 0; j--)
+
+	len1 = len - 1;
+
+	for (i = 0; i < len / 2; i++)
 	{
-		_putchar(s[j]);
+		tmp = s[i];
+		s[i] = s[len1];
+		s[len1--] = tmp;
 	}
 }
